@@ -1,0 +1,42 @@
+
+
+POST http://localhost:3000/user/signup
+Content-Type: application/json
+
+{
+
+"User_id": "14867",
+"First_Name": "fname",
+"last_name": "lname",              
+"Email": "testing@gmail.com",
+"Password": "justtest",
+"Address":"adjbm cc",
+"City":"Chennai",
+"State":"Haryana",
+"Zip":600071
+
+}
+
+
+###
+POST http://localhost:3000/user/login
+Content-Type: application/json
+
+{
+                         
+"Email": "testing@gmail.com",
+"Password": "justtest"
+}
+
+
+###
+
+GET  http://localhost:3000/user/getcookies
+
+###
+POST http://localhost:3000/user/logout
+Content-Type: application/json
+
+{
+
+}
